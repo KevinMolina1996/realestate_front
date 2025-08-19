@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real Estate Frontend
 
-## Getting Started
+Este proyecto es una aplicación front-end para una plataforma de bienes raíces, construida con Next.js y TypeScript. Permite a los usuarios navegar, ver, filtrar, crear y editar listados de propiedades.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   **Listado de Propiedades**: Visualiza una cuadrícula de las propiedades disponibles.
+*   **Vista Detallada**: Haz clic en una propiedad para ver su información detallada.
+*   **Filtrado**: Filtra las propiedades según diversos criterios.
+*   **Crear y Editar**: Añade nuevas propiedades y edita las existentes a través de una interfaz modal.
+*   **Diseño Adaptable**: La interfaz está construida con Tailwind CSS para una experiencia adaptable en diferentes dispositivos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   **Framework**: [Next.js](https://nextjs.org/)
+*   **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+*   **Librería UI**: [React](https://reactjs.org/)
+*   **Estilos**: [Tailwind CSS](https://tailwindcss.com/)
+*   **Testing**: [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+*   **Iconos**: [Heroicons](https://heroicons.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cómo Empezar
 
-## Learn More
+Sigue estas instrucciones para obtener una copia del proyecto y ponerla en marcha en tu máquina local para desarrollo y pruebas.
 
-To learn more about Next.js, take a look at the following resources:
+### Prerrequisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Necesitas tener [Node.js](https://nodejs.org/en/) (versión 20 o superior) y [npm](https://www.npmjs.com/) instalados en tu máquina.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Instalación
 
-## Deploy on Vercel
+1.  Clona el repositorio:
+    ```sh
+    git clone <url-del-repositorio>
+    ```
+2.  Navega al directorio del proyecto:
+    ```sh
+    cd realestate
+    ```
+3.  Instala las dependencias:
+    ```sh
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts Disponibles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+
+### `npm run dev`
+
+Ejecuta la aplicación en modo de desarrollo con Turbopack.
+Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador. La página se recargará automáticamente a medida que edites el código.
+
+### `npm run build`
+
+Construye la aplicación para producción en la carpeta `.next`. Empaqueta React en modo de producción y optimiza la compilación para el mejor rendimiento.
+
+### `npm run start`
+
+Inicia un servidor de producción de Next.js.
+
+### `npm run lint`
+
+Ejecuta el linter de Next.js para identificar y corregir problemas de calidad en el código.
+
+### `npm run test`
+
+Lanza el ejecutor de pruebas en el modo de observación interactivo.
+
+### `npm run test:watch`
+
+Lanza el ejecutor de pruebas en modo de observación.
