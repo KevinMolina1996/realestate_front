@@ -70,3 +70,7 @@ Lanza el ejecutor de pruebas en el modo de observación interactivo.
 ### `npm run test:watch`
 
 Lanza el ejecutor de pruebas en modo de observación.
+
+### `preview page`
+
+![alt text](image.png)
